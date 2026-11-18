@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+backend/.venv/
+backend/.venv312/
+backend/.venv-broken-py313/
+backend/.venv312/
+backend/.venv-broken-py313/
+*.egg-info/
+.coverage
+htmlcov/
+
+# Node
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/coverage/
+npm-debug.log*
+
+# Env and secrets
+.env
+.env.local
+frontend/.env.local
+backend/.env
+*.pem
+
+# Models and media (do not commit weights or user uploads)
+backend/models/*.pt
+backend/models/*.pth
+backend/models/test_metrics.json
+data/
+datasets/
+uploads/
+tmp/
+*.mp4
+*.webm
+*.mov
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+~$*
+
+~$*

@@ -1,0 +1,21 @@
+# DeepShield AI — backend dependencies
+# Python 3.11–3.13. Install CPU PyTorch first on machines without a matching CUDA driver.
+# See README.md for CUDA notes. GTX 1650 with driver CUDA 11.1 should use CPU wheels.
+
+fastapi==0.115.12
+uvicorn[standard]==0.34.2
+pydantic==2.11.3
+pydantic-settings==2.9.1
+python-multipart==0.0.20
+python-dotenv==1.1.0
+starlette==0.46.2
+slowapi==0.1.9
+numpy==2.2.5
+pillow==11.2.1
+opencv-python-headless==4.11.0.86
+torch==2.7.0
+torchvision==0.22.0
+scikit-learn==1.6.1
+pytest==8.3.5
+httpx==0.28.1
+ruff==0.11.7

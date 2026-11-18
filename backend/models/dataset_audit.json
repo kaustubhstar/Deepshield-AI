@@ -1,0 +1,16 @@
+{
+  "manifest": "data/real_vs_fake_manifest.csv",
+  "rows": 16000,
+  "labels": {"authentic": 8000, "manipulated": 8000},
+  "splits": {
+    "train": {"rows": 12000, "authentic": 6000, "manipulated": 6000},
+    "val": {"rows": 1600, "authentic": 800, "manipulated": 800},
+    "test": {"rows": 2400, "authentic": 1200, "manipulated": 1200}
+  },
+  "duplicate_paths": 0,
+  "source_ids": 16000,
+  "source_ids_in_more_than_one_split": 0,
+  "images_present_on_this_mac": false,
+  "path_style": "Windows paths from another machine, for example C:\\\\Users\\\\shita\\\\Desktop\\\\archive\\\\...",
+  "note": "Each row has its own source_id, so the manifest split column is what separates train, validation, and test. Image files are not on this Mac, so accuracy, precision, recall, F1, and ROC-AUC were not recomputed. The validation metrics already stored in model_metadata.json are the only measured scores."
+}
